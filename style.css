@@ -4,17 +4,18 @@
     margin:20px;
     box-shadow: rgb(188, 188, 236);
     border-radius: 40px;
-    background-color: 555879;
+    background-color: #555879;
     background-image: var(--bs-gradient);
+
     
 }
 
 .navbar .navbar-brand{
     color:  #BB9AB1;
 }
-.navbar-nav .nav-link {
-  color: #ffffff;
-  text-align: end;
+.navbar-nav .nav-link.active {
+  color: #fafafa;
+  
 }
 .icons {
     color:  #ffffff;
