@@ -43,5 +43,22 @@ img.img-fluid {
     width: 400px;
 
 }
+.custom-navbar .login-links a {
+    margin-left: 20px;
+    color: rgb(255, 255, 255) !important;
+    border:1px solid #f1fcfb;
+    border-radius: 50%;
+    width: 10px;
+    height:40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-navbar .login-links a:hover {
+    transform: scale(1.2);
+    text-shadow: 0 6px 16px rgba(222, 241, 240, 0.3);
+    color: #fdfcfc !important;
+}
 
 
