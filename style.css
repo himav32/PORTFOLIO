@@ -1,3 +1,14 @@
+html {
+  scroll-behavior: smooth;
+}
+
+header{
+     position: sticky;
+    top: 0;
+    z-index: 999;
+    
+}
+
 .navbar{
     padding: 30px;
     font-family: Arial, sans-serif;
@@ -5,6 +16,7 @@
     box-shadow:0 0 15px #7e4d6f;
     border-radius: 15px;
     background-color:#0a0a0a;
+   
     
 
     
@@ -13,6 +25,7 @@
 .navbar .navbar-brand{
     color:  #684c81;
 }
+
 .navbar .navbar-brand:hover{
     color: #BB9AB1;
     transform: scale(1.05);
@@ -53,6 +66,7 @@ body {
     background-position: center;
     background-attachment: fixed;
     color: white; /* Keep text readable */
+    scroll-padding-top: 100px;
 }
 
 
@@ -98,17 +112,19 @@ body {
     align-items: center;
     gap: 20px;
 }
+
 .btn{
     display: inline-block;
     padding: 10px 30px;
-    background: #BB9AB1 ;
-    border:2px solid #BB9AB1;
+    background: #ffffff ;
+    border:2px solid #ffffff;
     border-radius: 40px;
     box-shadow: 0 0 20px  #684c81;
     font-size: 16px;
-    color: #ffffff;
+    color: white;
     font-weight: 600;
     transition: 5s;
+    background-color: transparent;
 }
 .btn:hover {
     background: #ded1df;
@@ -383,7 +399,7 @@ span{
   font-size: 1rem;
   font-weight: bold;
   background: linear-gradient(to right, #724a79, #63286b);
-  color: black;
+  color: rgb(222, 207, 226);
   border: none;
   border-radius: 8px;
   cursor: pointer;

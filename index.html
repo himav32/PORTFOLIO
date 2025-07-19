@@ -22,32 +22,32 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                        <a class="nav-link active text-white "  href="#">Home</a>
+                        <a class="nav-link active text-white "  href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link active text-white" href="#">About</a>
+                        <a class="nav-link active text-white" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link active text-white" href="#">Skills</a>
+                        <a class="nav-link active text-white" href="#skills">Skills</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link active text-white" href="#">Education</a>
+                        <a class="nav-link active text-white" href="#education">Education</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link active text-white" href="#">Contact</a>
+                        <a class="nav-link active text-white" href="#contact">Contact</a>
                         </li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </header>
-    <section class="home">
+    <section class="home" id="home">
         <div class="home-info">
             <h1>Hi, I'm Hima V</h1>
             <h2>Web Developer</h2>
             <p> I am a passionate web developer with a keen interest in creating dynamic and responsive web applications. Explore my work and let's connect!</p>
             <div class="btn-sci">
-                <a href="#" class="btn">Know More</a>
+                <a href="#about" class="btn">Know More</a>
                 
                     <div class="sci">
                         <a class="nav-link" href="https://github.com/himav32" target="_blank"><i class='bx bxl-github' ></i></a>
@@ -67,7 +67,7 @@
         </div>
     </section>
     </section>
-    <section class="about">
+    <section class="about" id="about">
         <div class="about-content">
             <h2 class="heading">About <span>Me</span> </h2><br>
             <h3>Web Developer</h3><br>
@@ -133,8 +133,15 @@ When I’m not coding, you might find me exploring design trends, improving my E
   <h2 class="contact-heading">Get in Touch</h2>
   <div class="contact-container">
     <div class="contact-info">
-      <p><i class="fa-solid fa-envelope"></i> <strong>Email:</strong> himachandran2003@gmail.com.com</p>
-      <p><i class="fa-solid fa-location-dot"></i> <strong>Location:</strong> Kannur, Kerala, India</p>
+      <p><i class="fa-solid fa-envelope"></i> <strong>Email:</strong>
+  <a href="#" onclick="event.preventDefault();" style="color: #8e70a7;  cursor: pointer;">himachandran2003@gmail.com</a>
+</p>
+      <p>
+  <i class="fa-solid fa-location-dot"></i> <strong>Location:</strong>
+  <a href="#" onclick="event.preventDefault();" style="color: #8e70a7;  cursor: pointer;">
+    Kannur, Kerala, India
+  </a>
+</p>
     </div>
 
     <form class="contact-form">
