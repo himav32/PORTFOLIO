@@ -1,4 +1,4 @@
-html {
+html{
   scroll-behavior: smooth;
 }
 
@@ -329,7 +329,7 @@ span{
 }
 #contact {
   padding: 80px 20px;
-  color: white;
+  color: rgb(185, 125, 209);
   text-align: center;
   font-family: 'Segoe UI', sans-serif;
 }
@@ -377,20 +377,20 @@ span{
   border: none;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.1);
-  color: white;
+  color: rgb(195, 175, 201);
   font-size: 1rem;
   transition: 0.3s;
 }
 
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
-  color: #ccc;
+  color: #e196e4;
 }
 
 .contact-form input:focus,
 .contact-form textarea:focus {
   background: rgba(0, 0, 0, 0.15);
-  outline: none;
+  outline: #80529b solid 2px;
 }
 
 .contact-form button {
