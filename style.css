@@ -163,3 +163,244 @@ body {
     overflow: hidden;
     border-radius: 40px;
 }
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 12% 9% 0;
+    color: #ffffff;
+    gap: 10em;
+    border: #592b5e 1px solid;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 25px #8b6ca8;
+
+    
+}
+.about-content h2{
+    text-align: center;
+    font-size: 50px;
+    color: #684c81;
+    text-shadow: 0 6px 16px rgba(255, 255, 255, 0.3);
+
+}
+span{
+    color: #BB9AB1;
+    font-weight: 600;
+    font-size: 60px;
+    text-shadow: 0 6px 16px rgba(255, 255, 255, 0.3);
+
+}
+.about-content h3{
+    text-align: center;
+    font-size: 60px;
+    color: #BB9AB1;
+    margin-top: -10px;
+}
+.about-content p{
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-top: 20px;
+    color: #f1fcfb;
+}
+#skills {
+  padding: 60px 20px;
+  /* background-color: #1a1a1a; */
+  /* color: white; */
+  text-align: center;
+}
+
+.skills-heading {
+  color: #7e4d6f; /* Orange heading */
+  font-size: 60px;
+  margin-bottom: 60px;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.skill-box {
+  /* background-color: #ffffff; */
+  color:#ffffff;
+  border: #8b6ca8 1px solid;
+  border-radius: 15px;
+  padding: 20px 30px;
+  width: 400px;
+  text-align: center;
+  box-shadow: 0 4px 10px #b878a4;
+  transition: transform 0.3s ease;
+    background: linear-gradient(135deg, #6d5c7e, #a754d6, #592f81);
+}
+
+.skill-box h3 {
+  margin-bottom: 10px;
+  color:#3c1b5e;
+  font-size: 30px;
+  font-weight: 600;
+    
+}
+
+.skill-box p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.skill-box:hover {
+  transform: translateY(-5px);
+}
+
+#education {
+  padding: 60px 20px;
+  color: #f1f1f1;
+  text-align: center;
+}
+
+.education-heading {
+  font-size: 60px;
+  color: #8a5da5;
+  margin-bottom: 50px;
+}
+
+.timeline-clean {
+  position: relative;
+  max-width: 700px;
+  margin: auto;
+  padding-left: 20px;
+  border-left: 2px solid #80529b;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 40px;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.timeline-item .circle {
+  width: 14px;
+  height: 14px;
+  background-color:#a754d6;
+  border-radius: 50%;
+  position: absolute;
+  left: -8px;
+  top: 5px;
+}
+
+.timeline-content h3 {
+  font-size: 25px;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+.timeline-content .year {
+  font-weight: normal;
+  color: #b373a0;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.timeline-content p {
+  font-size: 18px;
+  margin: 0;
+  color: #dddddd;
+}
+#contact {
+  padding: 80px 20px;
+  color: white;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.contact-heading {
+  font-size: 60px;
+  font-weight: bold;
+  background: linear-gradient(to right, #8a5da5, #774883);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 60px;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.contact-info {
+  flex: 1 1 300px;
+  text-align: left;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.contact-form {
+  flex: 1 1 400px;
+  background: rgba(217, 134, 228, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(182, 89, 190, 0.1);
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(160, 86, 194, 0.4);
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #ccc;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  background: rgba(0, 0, 0, 0.15);
+  outline: none;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 14px;
+  font-size: 1rem;
+  font-weight: bold;
+  background: linear-gradient(to right, #724a79, #63286b);
+  color: black;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.contact-form button:hover {
+  transform: scale(1.05);
+    background: linear-gradient(to right, #8a5da5, #774883);
+    color: white;
+
+}
+.fa-solid {
+    color: #b373a0;
+}
+.fa-solid:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+    color:#a18b9b
+}
