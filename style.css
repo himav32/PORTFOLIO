@@ -535,42 +535,43 @@ span{
   text-decoration: none;
 }
 
-/* responsive */
 
-.flex-section {
+.home-section {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  gap: 30px;
   justify-content: center;
+  gap: 40px;
+  padding: 50px;
 }
 
-.flex-section img {
-  flex: 1 1 300px;
+.text-box, .img-box {
+  flex: 1;
 }
 
-.flex-section .text {
-  flex: 1 1 300px;
-}
-
+/* Responsive layout for smaller screens */
 @media (max-width: 768px) {
-  .section-content h2 {
-    font-size: 1.5rem;
-  }
-
-  .section-content p {
-    font-size: 0.95rem;
-  }
-
-  .flex-section {
+  .home-section {
     flex-direction: column;
+  }
+
+  .img-box {
+    width: 80%;
+    max-width: 250px;
+    order: -1; /* Bring image first */
     text-align: center;
   }
 
-  .profile-image {
-    max-width: 200px;
+  .text-box {
+    text-align: center;
   }
 }
+@media (max-width: 768px) {
+  .img-box {
+    margin: 0;
+    padding: 0;
+  }
+}
+
 
 /*  Media query for small screens */
 @media (max-width: 768px) {
@@ -669,4 +670,80 @@ span{
 
 .contact-form button:hover {
   box-shadow: 0 0 12px #c79dd1, 0 0 24px #712474;
+}
+
+
+/* === MEDIA QUERIES === */
+
+/* For tablets */
+@media (max-width: 991px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .home-info h1 {
+    font-size: 2rem;
+  }
+
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .skills-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skill-box {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* For mobile phones */
+@media (max-width: 768px) {
+  .home-info {
+    text-align: center;
+  }
+
+  .img-box {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .about-content,
+  .project-content,
+  .education,
+  .contact-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  h1, h2, h3 {
+    font-size: 1.5rem;
+  }
+
+  .btn-sci {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .submit-btn, .btn {
+    width: 100%;
+    padding: 12px;
+  }
+
+  .footer-container {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .social-icons a {
+    margin: 0 10px;
+  }
 }
